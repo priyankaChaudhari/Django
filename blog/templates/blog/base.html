@@ -8,9 +8,13 @@
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
     <body>
+
         <div class="page-header">
             <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+
             <h1><a href="/">Django Girls Blog</a></h1>
+            <h1><a href="{% url 'logout' %}" class = "top-menu">LOGOUT</a></h1>
+            <br><br><br>
         </div>
         <div class="content container">
             <div class="row">
@@ -20,5 +24,10 @@
                 </div>
             </div>
         </div>
+        <div>
+
+
+          </div>
+
     </body>
 </html>

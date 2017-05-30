@@ -1,0 +1,9 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+<form method="POST" class="post-form">{% csrf_token %}
+   <h1>Are you sure?????????</h1>
+    <button type="submit" class="save btn btn-default">yes</button>
+</form>
+{% endblock %}

@@ -1,0 +1,1 @@
+amazatic@amazatic-Vostro-270s.2801:1496118681
